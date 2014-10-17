@@ -335,6 +335,8 @@
 	$("#login").click(function(){
 		$('html').addClass('overlay');
         $("#login-popup").addClass('visible');
+        $("#emailid").focus();
+        
 	});
 	$("#loginsubmit").click(function(){
 		var uname = $("#emailid").val();
